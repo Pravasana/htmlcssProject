@@ -1,0 +1,78 @@
+ .workflex{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	padding: 30px;
+
+}
+.workflex .paragraph p{
+
+color: #a3c962;
+font-size: 20px;
+}
+.workflex .ourfeature{
+	color: 	#808080;
+	text-align: right;
+}
+.workflex .paragraph{
+	padding-right: 300px;
+}
+
+.ourhardwork{
+	display:inline-flex;
+	justify-content: space-around;
+/*	align-items: center;*/
+	/*align-content: center;*/
+	flex-wrap: wrap;
+	height:600px;
+	width: 100%;
+
+}
+
+.ourhardwork .left-box1 img{
+	height: 460px;
+	width: : 160px;
+	
+}
+.ourhardwork .rb{
+	height: 500px;
+	width: 550px;
+	/*background-color: red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.ourhardwork .rb .box{
+	height: 150px;
+	width: 650px;
+	border-radius: 15px;
+	padding: auto;
+	box-shadow: 10px 10px 45px  #17202a ;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+.ourhardwork .rb .small{
+	height: 150px;
+	width: 600px;
+	/*background-color: pink;*/
+	margin: auto;
+}
+.ourhardwork .rb .box .cb{
+	text-transform: capitalize;
+	color:#a3c962;
+	font-weight: 900;
+	font-size:20px;
+	padding: 10PX 10PX;
+
+}
+.ourhardwork .rb .box .ip{
+	font-size:18px;
+	color:#848482;
+
+}

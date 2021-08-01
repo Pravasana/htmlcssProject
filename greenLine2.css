@@ -1,0 +1,28 @@
+.greenlinesecond{
+	height: 300px;
+	width: 100%;
+	background: #a3c962;
+}
+.greenlinesecond h2{
+	color: white;
+	font-size: 23px;
+	text-align:center;
+	margin-top:12%;
+}
+.greenlinesecond p{
+	font-size: 18px;
+	color: #4c4c4c;
+	line-height: 42px;
+	text-align: center;
+}
+.greenlinesecond .fas{
+	font-size: 60px;
+	color: black;
+	transition: 0.4s ease;
+	margin-top: 50px;
+	margin-left:28%;
+
+}
+.greenlinesecond .fas:hover{
+	color:white;
+}

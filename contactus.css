@@ -1,0 +1,111 @@
+.contactbox{
+	height: 400px;
+	width:100%;
+	display: inline-flex;
+	justify-content:center;
+	/*flex-wrap: wrap;*/
+}
+
+.contactus{
+	height: 200px;
+	width:100%;
+/*	background-color: pink;*/
+	display: inline-flex;
+	align-items: center;
+	justify-content:center;
+	
+
+}
+.contactus .info .p1{
+	text-align: right;
+	font-size: 20px;
+	color:#808084;
+	padding-right:40px;
+
+}
+.contactus h1{
+	text-transform: capitalize;
+	font-size:30px;
+	/*padding-top: 50px;*/
+	
+}
+.contactus .p2{
+	text-transform: capitalize;
+	color: #a3c962;
+	font-size: 20px;
+	padding-right:390px;
+	font-weight: 600;
+}
+
+
+
+/***************************************************************/
+.contactbox .left-box1{
+	height: 400px;
+	width: 50%;
+}
+form
+{
+	background-color: white;
+	border-radius: 10px;
+	padding:20px 0 10px 20px;
+	
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="submit"],
+ textarea{
+	font-family: "Arial";
+	width: 95%;
+	padding:.6em .6em;
+	background-color:#efefef; 
+	color: #000;
+	box-shadow: 0px 1px 1px 0px black;
+	font-size:14px;
+	margin-top: 19px;
+	border: none;
+}
+input[type="submit"]{
+	border-radius: 30px;
+	color: white;
+	background-color: #a3c962;
+	text-transform: capitalize;
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.4s ease;
+}
+input[type="submit"]:hover{
+	background-color: black;
+
+}
+.contactbox .rb1{
+	height: 400px;
+	width: 550px;
+	margin-top: 30px;
+	
+}
+.contactbox .rb1 .box1{
+	height: 80px;
+	width: 400px;
+	display: inline-flex;
+	justify-content: space-around;
+	margin-top:23px;
+	
+
+}
+.contactbox .rb1 .box1 .cb{
+	font-weight: 700;
+    color: #a3c962;
+    font-size: 20px;
+    margin:0;
+    padding: 0;
+}
+.contactbox .rb1 .box1 .ip{
+	color: #4c4c4c;
+	margin-top: 20px;
+
+}
+

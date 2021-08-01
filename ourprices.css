@@ -1,0 +1,116 @@
+.our-prices{
+	
+	width: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('images/wallpaper.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	/*align-items: center;*/
+/*	margin:auto;*/
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.our-prices .whatwedo{
+	height: 200px;
+	width:100%;
+	/*background-color: gray;*/
+
+	position: relative;
+	
+	margin-left: 20px;
+
+}
+.our-prices .whatwedo .p1{
+	color:#a3c962;
+	font-weight: 900;
+	font-size:20px;
+	padding-top: 30px;
+/*	padding-bottom: 30px;*/
+	position: absolute;
+	left:35%;
+	text-transform: capitalize;
+
+}
+.our-prices .whatwedo h1{
+	position: absolute;
+	top:34%;
+	left:30%;
+	text-transform: capitalize;
+	padding-top: 5px;
+	color: white;
+}
+
+.our-prices .whatwedo .p2{
+	position: absolute;
+	top:30%;
+	left:50%;
+	text-transform: capitalize;
+	color: darkgray;
+	font-size: 18px;
+
+}
+.our-prices .whatwedo .p3{
+	position: absolute;
+	top:60%;
+	left:50%;
+	text-transform: capitalize;
+	color: darkgray;
+	font-size: 18px;
+	padding-left: 10px;
+}
+.our-prices .pricebox{
+	height: 360px;
+	width: 22%;
+	background-color: white;
+	box-shadow: 10px 15px 10px black;
+}
+
+.our-prices .pricebox h2{
+	color:#a3c962;
+	text-align: center;
+	margin-top: 20px;
+}
+.our-prices .pricebox .month{
+
+	text-align: center;
+	margin-top: 30px;
+	font-size: 20px;
+	text-transform: bold;
+}
+.our-prices .pricebox span{
+	color:#a3c962;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 28px;
+	text-transform: bold;
+}
+.our-prices .pricebox .lo{
+	text-align: center;
+	margin-top: 30px;
+	text-transform: bold;
+	color:rgb(128, 128, 128);
+}
+.our-prices .pricebox button{
+	display: block;
+    margin:0 auto;
+	margin-top: 30px;
+	font-size: 16px;
+	text-transform: bold;
+	background-color:#a3c962;
+	border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.6s ease;
+  /*  height: 40px;*/
+}
+
+.our-prices .pricebox button:hover {
+  background-color: black;
+ 
+}

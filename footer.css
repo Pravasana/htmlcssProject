@@ -1,0 +1,52 @@
+footer{
+	background-color: #a3c962;
+	color:white;
+	width: 100%;
+	height: 200px;
+	text-align:center;
+	padding-top: 30px;
+	font-size: 17px;
+}
+footer a{
+	text-decoration: none;
+	color: black;
+	transition: 0.6s ease;
+}
+
+footer a:hover{
+	text-decoration: underline;
+	color:white;
+}
+
+footer .icon{
+	background-color:black;
+	border-radius: 50;
+	height: 33px;
+	width: 33px;
+	display: inline-flex;
+	align-items: center;
+	margin-top:30px;
+	border-radius: 50%;
+	position: relative;
+}
+footer .fab , .fas{
+	font-size: 20px;
+	position: absolute;
+	margin:0;
+	left:20%;
+	
+}
+footer .fas{
+	font-size: 17px;
+}
+footer .icon{
+	transition: 0.6s ease;
+
+}
+footer .fab:hover {
+	color:#a3c962;
+}
+footer .fas:hover {
+	color:#a3c962;
+}
+

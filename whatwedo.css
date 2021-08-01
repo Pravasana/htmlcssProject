@@ -1,0 +1,44 @@
+/*<!--******* What We Do Section ********-->*/
+ .whatwedo{
+	height: 300px;
+	width:100%;
+/*	background-color: gray;*/
+	position: relative;
+	margin: auto;
+	padding-top: 15px;
+}
+.whatwedo .p1{
+	color:#a3c962;
+	font-weight: 900;
+	font-size:25px;
+	padding-top: 20px;
+	position: absolute;
+	left:50%;
+
+
+}
+.whatwedo h1{
+	position: absolute;
+	top:30%;
+	left:25%;
+	text-transform: uppercase;
+}
+
+.whatwedo .p2{
+	position: absolute;
+	top:53%;
+	left:25%;
+	text-transform: capitalize;
+	color: darkgray;
+	font-size: 18px;
+}
+ .whatwedo .p3{
+	position: absolute;
+	top:63%;
+	left:35%;
+	text-transform: capitalize;
+	color: darkgray;
+	font-size: 18px;
+}
+
+/*<!--******* What We Do Section ********-->*/

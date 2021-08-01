@@ -1,0 +1,87 @@
+.aboutus{
+	height: 550px;
+	width: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.aboutus .left-box{
+	height: 500px;
+	width: 450px;
+	padding-bottom: 20px;
+	position: relative;
+
+}.aboutus .right-box{
+	height: 500px;
+	width: 600px;
+	
+}
+.aboutus .left-box img{
+	position: absolute;
+	height: 100%;
+	width:100%;
+}
+.aboutus .right-box .para1{
+	color:#a3c962;
+	padding:10px;
+	padding-left: 0;
+	font-size: 22px;
+	font-weight:600;
+}.aboutus .right-box .para2{
+	/*padding:10px;*/
+	/*padding-left: 0;*/
+	font-size: 30px;
+	padding-top: 20px;
+	
+}.aboutus .right-box .para3{
+	color:darkgray;
+	/*padding:10px;*/
+	/*padding-left: 0;*/
+	font-size: 20px;
+	text-align: left;
+	padding-top: 20px;
+}
+
+.circle-flex{
+	height: 250px;
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	/*background-color: gray;*/
+}
+
+.circle-flex .circle {
+	height: 155px;
+	width:155px;
+	border-style: solid;
+	border-color:  #2e86c1 ;
+	/*padding: 20px;*/
+	margin: auto;
+	border-radius: 50%;
+	position: relative;
+
+}
+.circle-flex .second{
+	border-color:green;
+}
+.circle-flex .third{
+	border-color:orange;
+}
+.circle-flex .circle .minicircle{
+	height: 138px;
+	width:138px;
+	padding: 50px;
+	border-style: solid;
+	border-color: darkgray;
+	color: blue;
+	font-size: 30px;
+	border-radius: 50%;
+	position: absolute;
+	top:2%;
+	right:2%;
+
+
+}

@@ -1,0 +1,40 @@
+.greenline{
+	height: 200px;
+	width:100%;
+	background-color: #a3c962;
+	/*margin-top: 60px;*/
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.greenline .greenlineitem{
+	height:160px;
+	width:280px;
+	/*background-color: pink;*/
+	
+}
+.fas , .far{
+	color: white;
+    font-size: 28px;
+}
+.greenline .greenlineitem .fas , .far , .greenitem1,  .greenitem2{
+	position:relative;
+	left:39%;
+	top:20%;
+	padding: 5px;
+}
+.greenline .greenlineitem .greenitem1{
+	font-size: 25px;
+	text-transform: capitalize;
+	/*font-weight: bold;*/
+	
+
+}.greenline .greenlineitem .greenitem2{
+	font-size: 25px;
+	text-transform: capitalize;
+	/*font-weight: bold;*/
+	color: white;
+	/*left:35%;*/
+
+}
